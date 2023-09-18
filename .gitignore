@@ -1,0 +1,16 @@
+datasets/
+test/
+output/
+backup/
+.devcontainer/
+wandb/
+exports/
+.hypothesis/
+unittests/
+dataset/
+
+draft.ipynb
+__pycache__
+train.sh
+nohup.out
+notes.md
