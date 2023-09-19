@@ -15,12 +15,13 @@ conda activate dcgan
 pip install -r requirements.txt
 ```
 
+### Dataset
+[Celeb-A Faces](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) has been used for training. Download and unzip 'img_align_celeba.zip' from [Google Drive](https://drive.google.com/drive/folders/0B7EVK8r0v71pTUZsaXdaSnZBZzg?resourcekey=0-rJlzl934LzC-Xp28GeIBzQ) into the 'dataset' folder
+
 
 ### Models
  - DCGAN
 
-### Dataset
-[Celeb-A Faces](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) has been used for training. Download and unzip 'img_align_celeba.zip' from [Google Drive](https://drive.google.com/drive/folders/0B7EVK8r0v71pTUZsaXdaSnZBZzg?resourcekey=0-rJlzl934LzC-Xp28GeIBzQ) into the 'dataset' folder
 
 ### Training
 ```
