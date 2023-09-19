@@ -37,7 +37,8 @@ python dcgan/infer.py --weights weights/last_weights.pt --out test/image.png
 <div align="center">
 
 
-<img src="assets/chart.png">
+<img src="assets/chart1.png">
+<img src="assets/chart2.png">
 
 
 </div>
