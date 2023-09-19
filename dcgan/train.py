@@ -94,6 +94,7 @@ def train(args):
                 wandb.log({'loss_discriminator_real': loss_discriminator_real,
                             'loss_discriminator_fake': loss_discriminator_fake,
                             'loss_generator': loss_generator,
+                            'loss_discriminator': loss_discriminator,
                             'epoch': epoch + 1,
                         })
             

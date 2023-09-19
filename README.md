@@ -33,7 +33,7 @@ python dcgan/train.py
 python dcgan/infer.py --weights weights/last_weights.pt --out test/image.png
 ```
 
-### [Results](https://wandb.ai/andregaio/vgg)
+### [Results](https://wandb.ai/andregaio/dcgan)
 <div align="center">
 
 
