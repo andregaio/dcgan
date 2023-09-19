@@ -8,7 +8,6 @@ exports/
 .hypothesis/
 unittests/
 dataset/
-assets/
 
 draft.ipynb
 __pycache__
