@@ -24,13 +24,11 @@ def train(args):
             project='dcgan',            
             config={
                 'dcgan': 'dcgan',
-                'dataset': args.dataset,
+                'dataset': 'Celeb-A Faces',
                 'epochs': args.epochs,
                 'batch' : args.batch,
-                'loss' : 'sgd',
                 'learning_rate': args.learning_rate,
-                'momentum' : args.momentum,
-                'weight_decay' : args.weight_decay,
+                'beta1' : args.beta1,
             })
 
     dataroot = "/home/andre/repos/dcgan/dataset/"
@@ -107,13 +105,10 @@ def train(args):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser("Argument parser")
-    parser.add_argument("--model", type = str, default = 'vgg_A')
-    parser.add_argument("--dataset", type = str, default = 'cifar10')
     parser.add_argument("--batch", type = int, default = 128)
-    parser.add_argument("--epochs", type = int, default = 74)
-    parser.add_argument("--learning_rate", type = float, default = 10e-3)
-    parser.add_argument("--weight_decay", type = float, default = 5 * 10e-4)
-    parser.add_argument("--momentum", type = str, default = 0.9)
+    parser.add_argument("--epochs", type = int, default = 5)
+    parser.add_argument("--learning_rate", type = float, default = .0002)
+    parser.add_argument("--beta1", type = float, default = 0.5)
     parser.add_argument("--wandb", action="store_true", default = False)
     args = parser.parse_args()
 
